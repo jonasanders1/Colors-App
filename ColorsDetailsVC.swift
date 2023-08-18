@@ -15,7 +15,7 @@ class ColorsDetailsVC: UIViewController {
         super.viewDidLoad()
         
         // If we for some reason dont get the color value, just set the color to blue
-        view.backgroundColor = color ?? .blue
+        view.backgroundColor = color ?? .yellow
 
     }
     
